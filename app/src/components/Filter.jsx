@@ -33,7 +33,7 @@ export default class App extends React.Component {
         return (
             <IconMenu
                 iconButtonElement={<IconButton><ContentFilter color={'white'}/></IconButton>}
-                onChange={()=>this.handleChange()}
+                onChange={(event, filter)=>this.handleChange(event, filter)}
                 value={this.state.types}
                 multiple={false}
                 closeOnItemTouchTap={true}

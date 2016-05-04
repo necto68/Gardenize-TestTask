@@ -1,0 +1,25 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto;
+    background-color: #EDEEED;
+}
+
+
+.animatePaper-enter {
+	transform: scale(0);
+}
+
+.animatePaper-enter.animatePaper-enter-active {
+	transform: scale(1);
+	transition: transform 500ms ease-in;
+}
+
+.animatePaper-leave {
+	transform: scale(1);
+}
+
+.animatePaper-leave.animatePaper-leave-active {
+	transform: scale(0);
+	transition: transform 300ms ease-in;
+}

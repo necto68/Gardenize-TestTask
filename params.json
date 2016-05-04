@@ -1,0 +1,6 @@
+{
+  "name": "Gardenize-testtask",
+  "tagline": "",
+  "body": "# TestTask\r\n\r\n##How to launch?\r\n```\r\nnpm i\r\n```\r\n```\r\nwebpack\r\n```\r\n```\r\nnpm start\r\n```\r\nThen go to [http://localhost:3000](http://localhost:3000)\r\n\r\n##Demo\r\nYou can try demo [here](https://necto68.github.io/Gardenize-TestTask/demo/).\r\n\r\n##Author\r\n[necto68](https://github.com/necto68)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}

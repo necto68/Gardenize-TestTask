@@ -31418,8 +31418,8 @@
 	                        null,
 	                        _react2.default.createElement(_filterList2.default, { color: 'white' })
 	                    ),
-	                    onChange: function onChange() {
-	                        return _this2.handleChange();
+	                    onChange: function onChange(event, filter) {
+	                        return _this2.handleChange(event, filter);
 	                    },
 	                    value: this.state.types,
 	                    multiple: false,
